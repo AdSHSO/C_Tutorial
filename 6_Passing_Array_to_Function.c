@@ -18,9 +18,8 @@ void print_array(int arr[], int size)
 }
 int main()
 {
-    int s = 3;
-    int an_array[3];
-    printf("P");
+    int s = 4;
+    int an_array[4];
     init_array(an_array, s);
     print_array(&an_array, s);
     //line 23 and 24 are identical in their meaning
