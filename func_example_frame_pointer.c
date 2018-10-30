@@ -4,6 +4,7 @@ x = a + b;
 y = a - b;
 }
 
-void main (){
+int main (){
     func(10,20);
+    return 1;
 }
