@@ -3,7 +3,7 @@
 int *func(void)
 {
     static int an_array[3] = {1, 2, 3};
-    printf("Start address of array: %p\n", an_array);
+    printf("Start address of array: %p\n", &an_array);
     return an_array;
 }
 int main()
