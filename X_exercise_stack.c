@@ -12,7 +12,7 @@ int main(){
     ptr[0]=5;
     ptr[1]=6;
 
-    //deallocate memory on heap
+    //deallocate the memory on heap
     free(ptr);
 
     return 1;
